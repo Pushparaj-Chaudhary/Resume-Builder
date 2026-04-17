@@ -19,9 +19,8 @@ const Hero = () => {
             <div className="min-h-screen pb-20">
                 {/* Navbar */}
                 <nav className="z-50 flex items-center justify-between w-full py-4 px-6 md:px-16 lg:px-24 xl:px-40 text-sm">
-                    <a href="#" className="flex items-center">
-                        <img src="/logo.svg" alt="logo" className='h-11 w-auto' />
-                        <span className="text-3xl font-bold mt-3">esume•</span>
+                    <a href="#">
+                        <img src="/LogoImg.png" alt="logo" className='h-11 w-auto drop-shadow-sm transition-transform duration-300' />
                     </a>
 
                     <div className="hidden md:flex items-center gap-8 transition duration-500 text-slate-800">

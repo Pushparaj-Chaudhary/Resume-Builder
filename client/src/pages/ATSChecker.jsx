@@ -223,7 +223,7 @@ const ATSChecker = () => {
             </button>
           </div>
 
-          <div className="bg-slate-50 rounded-xl p-6 border border-slate-200 flex flex-col items-center justify-center min-h-[300px]">
+          <div className="bg-slate-50 rounded-xl p-6 border border-slate-200 flex flex-col items-center justify-center min-h-75">
              {!result && !isEvaluating && (
                 <div className="text-center text-slate-500">
                   <img src="https://cdn-icons-png.flaticon.com/512/3272/3272283.png" alt="Analytics" className="w-24 h-24 mx-auto mb-4 opacity-50 grayscale" />

@@ -17,6 +17,11 @@ const ClassicTemplate = ({ data, accentColor }) => {
                 <h1 className="text-3xl font-bold mb-2" style={{ color: accentColor }}>
                     {data.personal_info?.full_name || "Your Name"}
                 </h1>
+                {data.personal_info?.profession && (
+                    <h2 className="text-xl font-medium mb-4 text-gray-700">
+                        {data.personal_info.profession}
+                    </h2>
+                )}
 
                 <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600">
                     {data.personal_info?.email && (

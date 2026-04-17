@@ -33,6 +33,9 @@ const ATSTemplate = ({ data }) => {
         <h1 className="text-3xl font-bold mb-2 uppercase">
           {data.personal_info?.full_name || "Your Name"}
         </h1>
+        {data.personal_info?.profession && (
+          <h2 className="text-xl mb-2 focus:outline-none">{data.personal_info.profession}</h2>
+        )}
         <div className="flex flex-wrap justify-center gap-2 text-sm">
           {data.personal_info?.location && <span>{data.personal_info.location}</span>}
           {data.personal_info?.phone && <span> | {data.personal_info.phone}</span>}
